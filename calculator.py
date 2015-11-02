@@ -63,6 +63,23 @@ if __name__ == '__main__':
 	plot(x, c.function('x**2+x**4-3', x))
 	raw_input()
 
+'''
+Bergem$ python Calculator.py
+Adding:  15
+Subtracting:  5
+Multiplying:  50
+Divifing:  2.0
+Changeing variables...
+Now adding:  9
+Now trying functions...
+f(x) = x^2, x = 2:  4
+Trying with array...
+Adding linspace(-5, -3, 5), linspace(-1, 1, 5):
+[-6. -4. -2.]
+f(x) = x^2, x = linspace(-1, 1, 11):
+[ 1.    0.81  0.64  0.49  0.36  0.25  0.16  0.09  0.04  0.01  0.    0.01
+  0.04  0.09  0.16  0.25  0.36  0.49  0.64  0.81  1.  ]
+'''
 
 
 
