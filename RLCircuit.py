@@ -32,7 +32,6 @@ def _demo():
 			plt.plot(t, u, label=solver_class.__name__)
 		
 		I = Exact(E, R, L)
-		#t = np.linspace(0, 2e-3, 100)
 		plt.plot(t, I(t), '--', label='exact')
 		plt.legend(loc='best')
 		plt.xlabel('t [s]')
